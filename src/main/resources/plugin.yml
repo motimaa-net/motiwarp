@@ -1,0 +1,38 @@
+name: MotiWarp
+version: ${project.version}
+main: fi.johvu.motiwarp.MotiWarp
+api-version: 1.18
+authors: [ Johvu, Kaap0, Kopo942 ]
+depend: [ Vault ]
+commands:
+  setwarp:
+
+  warps:
+
+  movewarp:
+    usage: /<komento>
+  renamelabel:
+    usage: /<komento>
+  warp:
+
+  deletewarp:
+
+  setadminwarp:
+
+  motiwarp:
+
+permissions:
+  motiwarp.admin.setwarp:
+    default: op
+  motiwarp.player.setwarp:
+    default: op
+  motiwarp.player.renamewarp:
+    default: op
+  motiwarp.player.movewarp:
+    default: op
+  motiwarp.player.deletewarp:
+    default: op
+  motiwarp.admin.deletewarp:
+    default: op
+  motiwarp.player.warp:
+    default: op

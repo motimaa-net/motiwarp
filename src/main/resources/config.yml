@@ -1,0 +1,25 @@
+name-maxlenght: 16
+players-can-buy: true
+warpCommand-fee: true
+buy-price: 30000
+rename-price: 5000
+move-price: 5000
+
+
+locale:
+  prefix: "&f&lMoti&a&lWarp &8&l»&r &7"
+  permissions_missing: "&cSinulla ei ole oikeutta tuohon komentoon"
+
+#databse login, sqlite/mysql
+storage-type: sqlite
+host: "127.0.0.1"
+port: "3306"
+database: "motiwarp"
+username: "motiwarp"
+password: "password"
+options: "?useSSL=true"
+
+disabled-worlds:
+  - example1
+  - example2
+  - example3
